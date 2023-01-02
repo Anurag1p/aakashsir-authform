@@ -1,0 +1,128 @@
+*{
+    font-size: 12px;
+}
+body{
+    height: 100%;
+    width: 90vw;
+    padding: 50px;
+}
+.form-area{
+width: 50%;
+height: 90%;
+border: 1px solid blueviolet;
+margin: 0 auto;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+display: flex;
+flex-direction: column;
+border-radius: 20px;
+box-shadow: 1px 10px 50px rgb(185, 96, 190);
+}
+h3{
+    font-size:2rem;
+    margin: 0 auto;
+    color: blueviolet;
+    padding: 20px;
+}
+label{
+    font-size: 1.5rem;
+ color: blueviolet;
+ margin:10px 45px;
+}
+input{
+    color: blueviolet;
+    width:80%;
+    margin: 0 auto;
+padding: 10px;
+}
+.cpass{
+    margin-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+   text-align: end;
+   margin-right: 100px;
+   color: blue;
+}
+a:hover{
+    color: blueviolet;
+   
+}
+.anchor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1.2rem;
+    border-bottom: 2px solid blueviolet;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+margin: 10px 10px;
+}
+button{
+width: 200px;
+    padding: 10px;
+    margin: 0 auto;
+    border: 1px solid blueviolet;
+    background: blueviolet;
+    color: white;
+  border-radius: 10px;
+
+
+}
+button:hover{
+  color: blueviolet;
+  border: 1px solid blueviolet;
+  background: white;
+  border-radius: 10px;
+    
+    }
+    
+
+.fb{
+    width: 100px;
+    background:  blueviolet;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    border: 1px solid blueviolet;
+}
+.fb:hover{
+    width: 100px;
+  
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    color: blueviolet;
+    background: white;
+    border: 1px solid blueviolet;
+}
+
+
+.remberpass{
+    font-size: 1rem;
+    margin-left: 50px;
+    color: blueviolet;
+}
+.loginRember{
+font-size: 1rem;
+text-decoration: none;
+
+}
+.loginRember:hover{
+    font-size: 1rem;
+    text-decoration: none;
+    color: blue;
+    
+    }
+
+
+    .remember{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+    }
